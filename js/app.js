@@ -7,31 +7,31 @@ $(".slick").slick({
 	dots: true
 })
 
-// var $select = $("<select></select>");
-// $("header").append($select);
+var $select = $("<select></select>");
+$("header").append($select);
 
 
-// $("nav a").each(function(){
-//   var $anchor = $(this);
+$("nav a").each(function(){
+  var $anchor = $(this);
  
-//   var $option = $("<option></option>");
+  var $option = $("<option></option>");
 
  
-//   if($anchor.parent().hasClass("active")) {
-//     $option.prop("selected", true);
-//   }
+  if($anchor.parent().hasClass("active")) {
+    $option.prop("selected", true);
+  }
  
-//   $option.val($anchor.attr("href"));
+  $option.val($anchor.attr("href"));
 
-//   $option.text($anchor.text());
+  $option.text($anchor.text());
   
-//   $select.append($option);
-// });
+  $select.append($option);
+});
 
 
-// $select.change(function(){
+$select.change(function(){
   
-//   window.location = $select.val();
-// });
+  window.location = $select.val();
+});
 
 
