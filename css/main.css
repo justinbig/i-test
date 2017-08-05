@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One');
+font-family: 'Rajdhani', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poiret One', cursive;
+
+* { 
+ box-sizing: border-box;
+ 
+
+}
+body {
+	text-transform: capitalize;
+	line-height: 1.6;
+	font-family: 'Josefin Sans', sans-serif;
+	background: #f5f5f0;
+    
+}
+
+a {
+ text-decoration: none;
+ color: black;
+ font-size: 1.4em;
+}
+
+
+.logo span {
+   color: tomato;
+   margin-bottom: 0;
+}
+select {
+	width: 90%;
+	margin-left: 15px;
+	padding: 10px 0;
+}
+
+img {
+	max-width: 100%;
+}
+/*slides layout and text-decorations*/
+.slide img {
+	width: 100%;
+}
+
+
+.slide {
+	position: relative;
+}
+
+.slide-text {
+	
+	font-family: 'Poiret One', cursive;
+	
+	color: white;
+	position: absolute;
+	
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	
+}
+.slide-text h2 {
+	font-size: 1.3em;
+	margin: 8px;
+	text-shadow: 0 0 0 3px;
+
+}
+.active a {
+   color: tomato;
+}
+.slide-text h3 {
+	font-size: 1em;
+	background: #444;
+	padding: 0 5px;
+	width: 55%;
+	margin: auto;
+	
+	
+}
+.slide-text h4 {
+	font-size: 1em;
+	margin-top: 10px;
+	
+	
+}
+
+
+
+/*navigation*/
+nav li {
+	background: #333;
+	border-radius: 8px;
+	color: white;
+	padding: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+
+}
+nav li a:hover {
+	color: gray;
+}
+.wrapper h3 {
+    
+    color: #000;
+    font-size: 1.5em;
+    padding: 10px;
+}
+nav a {
+  color: #eee;
+  display: block;
+  font-size: 1.2em;
+}
+
+footer {
+	text-align: center;
+}
+.head-wrapper,.wrapper {
+	padding: 0 10px;
+}
+.sub-wrapper-home p {
+	padding: 10px;
+	background: white;
+	box-shadow: 0 0 .8px .5px;
+}
+.text-line {
+	width: 30px;
+	height: 5px;
+	background: tomato;
+	
+}
+
+.info {
+	list-style: none;
+
+}
+
+.contact-wrapper h3 {
+	font-size: 1.3em;
+}
+
+/*hidden text*/
+ 
+ .btn-reveal {
+ 	color: blue;
+ }
+/*form*/
+input,textarea,button {
+	width: 100%;
+	padding: 10px 0;
+	margin-bottom: 5px;
+	outline: none;
+	border: 1px solid gray;
+
+}
+input:focus,textarea:focus {
+	border-color: tomato;
+}
+button {
+	background: tomato;
+	color: white;
+	width: 100px;
+	font-weight: bold;
+	border: none;
+}
+@media (min-width: 480px) {
+	  select {
+		display: none
+	  }
+	  .slide-text h4 {
+	    font-size: 1.7em;
+	    
+	     }
+      .slide-text h2 {
+	    font-size: 1.6em;
+	    }
+     
+    .slide-text h3 {
+	font-size: 1.3em;
+	    }
+
+
+	  .form,.contact-details,.map-wrapper {
+		width: 80%;
+		margin: auto;
+	  }
+      .head-wrapper {
+		display: table;
+		width: 90%;
+		margin: auto;
+	}
+	.logo-container,nav {
+		display: table-cell;
+		vertical-align: middle;
+	 }
+	nav li {
+		display: inline-block;
+	}
+	
+	header {
+		background: #333;
+		margin: 0;
+		padding: 0;
+		height: 70px;
+	}
+	nav li {
+		background: initial;
+	}
+	.head-wrapper {
+		position: relative;
+		left: 0;
+		bottom: 27px;
+
+	}
+	nav {
+		text-align: right;
+	}
+   }
+@media (min-width: 768px) {
+	.form,.contact-details,.map-wrapper {
+		width: 70%;
+		margin: auto;
+	}
+	.head-wrapper {
+		width: 80%;
+		margin: auto;
+	}
+	.about-primary h2,.about-secondary h2{
+		 font-size: 1.3em;
+	}
+
+	/*nav li {
+		display: inline-block;
+	}*/
+	.slide h2 {
+		font-size: 4em;
+	}
+	.slide h3 {
+          font-size: 2em;
+	}
+	
+}
+
+@media (min-width: 992px) {
+	
+	  .form,.contact-details,.map-wrapper {
+		width: 80%;
+		margin: auto;
+	    }
+	 .head-wrapper,.wrapper {
+		width: 70%;
+		margin: auto;
+		max-width: 1200px;
+		
+	}
+	.slide-text {
+	
+	top: 100px;
+	
+	
+}
+
+}
