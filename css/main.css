@@ -82,7 +82,7 @@ img {
 
   }
    nav a:hover {
-   	  color: #eee;
+   	  color: lightblue;
    }
   nav li {
 	background: #444;
@@ -275,6 +275,7 @@ nav ul {
  #map {
  	height: 100%;
     margin: 0;
+
     }
 
  .about-primary h2,.about-secondary h2{
@@ -291,12 +292,13 @@ select {
 	padding: 10px 0;
 	margin-bottom: 10px;
 }
-
+ma
 .form h2,
 .map-wrapper h2 {
 	border-left: 3px solid tomato;
 	padding-left: 10px;
 }
+
 @media (min-width: 768px) {
 	.line {
 		background: tomato;
@@ -366,8 +368,7 @@ select {
 	}
 	.col-3 {
 		float: right;
-		/*width: 100%;*/
-		/*clear: both;*/
+		
 		width: 100%;
 	}
 	.col-2 p {

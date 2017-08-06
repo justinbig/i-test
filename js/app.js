@@ -1,6 +1,6 @@
 
 $(".slick").slick({
-  fade: true,
+  fade: false,
   autoplay: true,
   autoplayspeed: 2000,
   arrows: false,
